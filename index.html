@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Simple TODO</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<main class="app">
+    <h1>My tasks</h1>
+
+    <form id="form" autocomplete="off">
+        <input id="input" type="text" placeholder="Add a task" aria-label="New task" required />
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="bar">
+        <span id="counter"> 0 tasks | 0 completed</span>
+        <button id="clearDone" class="clear">Clear completed</button>
+    </div>
+
+    <ul id="list" aria-live="polite"></ul>
+
+    <p class="hint">Check the box to mark as done. X deletes the task.</p>
+</main>
+
+    <script src="app.js"></script>
+</body>
+</html>
