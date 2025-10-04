@@ -6,7 +6,7 @@
     const input = document.getElementById('input');
     const list = document.getElementById('list');
     const counter = document.getElementById('counter');
-    const clearDoneBtn = document.getElementById('clearDone');
+    const clearDoneBtn = document.getElementById('ClearDone');
 
     //Array { id, text, done, createdAt }
     let tasks = [];
